@@ -22,16 +22,6 @@ body {
   background-color: black;
 }
 
-h1 {
-  position: relative;
-  margin: 0 auto;
-  padding: 25px;
-  font-family: var(--main-font);
-  font-weight: 400;
-  font-size: 20px;
-  color: white;
-}
-
 .flex-container {
   display: flex;
   flex-flow: row wrap;
@@ -93,15 +83,11 @@ h1 {
   padding: 25px;
 }
 .flexbox-header_1, .flexbox-header_2, .flexbox-header_3, .flexbox-header_4, .flexbox-header_5, .flexbox-header_6 {
+  margin: 5px;
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   color: white;
-  margin: 5px;
-  text-decoration: none;
-}
-.flexbox-header_1:hover, .flexbox-header_2:hover, .flexbox-header_3:hover, .flexbox-header_4:hover, .flexbox-header_5:hover, .flexbox-header_6:hover {
-  text-decoration: underline;
 }
 .flexbox-header_1 {
   flex: 5 0 120px;
@@ -109,6 +95,14 @@ h1 {
 .flexbox-header_2, .flexbox-header_3, .flexbox-header_4, .flexbox-header_5, .flexbox-header_6 {
   flex: 1 0;
   text-align: center;
+}
+.flexbox-header_link {
+  text-decoration: none;
+  color: white;
+}
+.flexbox-header_link:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
