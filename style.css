@@ -65,8 +65,11 @@ body {
 .left_toc {
   font-family: var(--main-font);
   color: white;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 1.2vw;
+  text-decoration: none;
+}
+.left_toc:hover {
   text-decoration: underline;
 }
 
@@ -147,6 +150,12 @@ body {
 .flexbox-header_link:hover {
   text-decoration: underline;
   color: white;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: decimal inside none;
 }
 
 /*# sourceMappingURL=style.css.map */

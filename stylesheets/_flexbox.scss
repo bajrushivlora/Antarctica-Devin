@@ -39,8 +39,12 @@
     &_toc {
         font-family: var(--main-font);
         color: white;
-        font-weight: 400;
-        font-size: 15px;
+        font-weight: 700;
+        font-size: 1.2vw;
+        text-decoration: none;
+    }
+
+    &_toc:hover {
         text-decoration: underline;
     }
 }
