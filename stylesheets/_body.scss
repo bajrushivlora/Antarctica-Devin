@@ -10,4 +10,13 @@ body {
     padding: 0;
     width: 100vw;
     min-height: 100vh;
+    background-color: black;
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.green {
+    background-color: var(--mutedgreen);
 }

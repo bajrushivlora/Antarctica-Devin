@@ -26,6 +26,15 @@
     &_textlink:hover {
         color: red;
     }
+
+    &_chapter {
+        color: white;
+        font-family: var(--main-font);
+        font-weight: 700;
+        font-size: 4vw;
+        margin: 0;
+        text-decoration: underline;
+    }
 }
 
 .right {
@@ -58,5 +67,13 @@
 
     &_linkgreen:hover {
         color: var(--green);
+    }
+
+    &_chapter {
+        margin: 0;
+        font-size: 17px;
+        color: white;
+        font-weight: 400;
+        padding-right: 25px;
     }
 }

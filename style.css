@@ -10,16 +10,22 @@ body {
   padding: 0;
   width: 100vw;
   min-height: 100vh;
+  background-color: black;
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.green {
+  background-color: var(--mutedgreen);
 }
 
 :root {
   --main-font: "antarctican-mono", sans-serif;
   --blue: #256eb4;
   --green: #93cf43;
-}
-
-body {
-  background-color: black;
+  --mutedgreen: #7bad39;
 }
 
 .flex-container {
@@ -47,6 +53,14 @@ body {
 }
 .left_textlink:hover {
   color: red;
+}
+.left_chapter {
+  color: white;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 4vw;
+  margin: 0;
+  text-decoration: underline;
 }
 
 .right {
@@ -76,6 +90,13 @@ body {
 }
 .right_linkgreen:hover {
   color: var(--green);
+}
+.right_chapter {
+  margin: 0;
+  font-size: 17px;
+  color: white;
+  font-weight: 400;
+  padding-right: 25px;
 }
 
 .flexbox-header {
