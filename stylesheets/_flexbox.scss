@@ -18,6 +18,14 @@
         color: white;
         margin: 0;
     }
+
+    &_textlink {
+        color: white;
+    }
+
+    &_textlink:hover {
+        color: red;
+    }
 }
 
 .right {
