@@ -77,6 +77,18 @@
         color: var(--green);
     }
 
+    &_linkwhite {
+        font-family: var(--main-font);
+        font-weight: 700;
+        font-size: 3.5vw;
+        color: white;
+        text-decoration: none;
+    }
+
+    &_linkwhite:hover {
+        text-decoration: underline;
+    }
+
     &_chapter {
         margin: 0;
         font-size: 17px;

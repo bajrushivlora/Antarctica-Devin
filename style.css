@@ -98,6 +98,16 @@ body {
 .right_linkgreen:hover {
   color: var(--green);
 }
+.right_linkwhite {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 3.5vw;
+  color: white;
+  text-decoration: none;
+}
+.right_linkwhite:hover {
+  text-decoration: underline;
+}
 .right_chapter {
   margin: 0;
   font-size: 17px;
