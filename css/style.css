@@ -1,0 +1,27 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+}
+
+:root {
+  --main-font: "antarctican-mono", sans-serif;
+  --blue: #256eb4;
+  --green: #93cf43;
+}
+
+h1 {
+  font-family: var(--main-font);
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */
