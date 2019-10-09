@@ -35,6 +35,14 @@
         margin: 0;
         text-decoration: underline;
     }
+
+    &_toc {
+        font-family: var(--main-font);
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        text-decoration: underline;
+    }
 }
 
 .right {
