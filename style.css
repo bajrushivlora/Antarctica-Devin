@@ -54,6 +54,16 @@ body {
 .left_textlink:hover {
   color: red;
 }
+.left_number {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 50vw;
+  color: transparent;
+  -webkit-text-stroke-width: 0.2vw;
+  -webkit-text-stroke-color: white;
+}
 .left_chapter {
   color: white;
   font-family: var(--main-font);
