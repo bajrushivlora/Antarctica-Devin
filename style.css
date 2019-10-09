@@ -61,5 +61,54 @@ h1 {
   font-size: 4vw;
   color: white;
 }
+.right_link {
+  color: white;
+  text-decoration: underline;
+}
+.right_link:hover {
+  color: var(--blue);
+}
+.right_linkblue, .right_linkgreen {
+  font-size: 3vw;
+  color: white;
+  font-family: var(--main-font);
+  font-weight: 700;
+  text-decoration: underline;
+}
+.right_linkblue:hover {
+  color: var(--blue);
+}
+.right_linkgreen:hover {
+  color: var(--green);
+}
+
+.flexbox-header {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+  padding: 25px;
+}
+.flexbox-header_1, .flexbox-header_2, .flexbox-header_3, .flexbox-header_4, .flexbox-header_5, .flexbox-header_6 {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+}
+.flexbox-header_1:hover, .flexbox-header_2:hover, .flexbox-header_3:hover, .flexbox-header_4:hover, .flexbox-header_5:hover, .flexbox-header_6:hover {
+  text-decoration: underline;
+}
+.flexbox-header_1 {
+  flex: 5 0 120px;
+}
+.flexbox-header_2, .flexbox-header_3, .flexbox-header_4, .flexbox-header_5, .flexbox-header_6 {
+  flex: 1 0;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */

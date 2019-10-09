@@ -1,0 +1,33 @@
+.flexbox-header {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    padding: 25px;
+
+    &_1, &_2, &_3, &_4, &_5, &_6 {
+        font-family: var(--main-font);
+        font-weight: 400; 
+        font-size: 14px;
+        color: white;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    &_1:hover, &_2:hover, &_3:hover, &_4:hover, &_5:hover, &_6:hover {
+        text-decoration: underline;
+    } 
+
+    &_1 {
+        flex: 5 0 120px;
+    }
+
+    &_2, &_3, &_4, &_5, &_6 {
+        flex: 1 0;
+        text-align: center;
+    }
+
+}

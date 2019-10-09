@@ -27,4 +27,28 @@
     font-weight: 700;
     font-size: 4vw;
     color: white;
+
+    &_link {
+        color: white;
+        text-decoration: underline;
+    }
+
+    &_link:hover {
+        color: var(--blue);
+    }
+    &_linkblue, &_linkgreen {
+        font-size: 3vw;
+        color: white;
+        font-family: var(--main-font);
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    &_linkblue:hover {
+        color: var(--blue);
+    }
+
+    &_linkgreen:hover {
+        color: var(--green);
+    }
 }
