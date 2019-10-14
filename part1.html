@@ -39,10 +39,8 @@
         </div>
 
     <div class="flex-container">
-        <div class="left">
-            <p class="left_chapter">
-                1
-            </p>
+        <div class="left" id="svg">
+            <object id="svg_part1" type="image/svg+xml" data="1_animated.svg"></object>
         </div>
         
         <div class="right">
@@ -72,6 +70,10 @@
         </div>
     
     </div>
+
+    <script>
+        new Vivus('svg_part1', { duration: 200 }, myCallback);
+    </script>
 
 </body>
 
