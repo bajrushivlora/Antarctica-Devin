@@ -111,13 +111,15 @@ body {
   color: white;
   font-family: var(--main-font);
   font-weight: 700;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .right_linkblue:hover {
   color: var(--blue);
+  text-decoration: underline;
 }
 .right_linkgreen:hover {
   color: var(--green);
+  text-decoration: underline;
 }
 .right_linkwhite {
   font-family: var(--main-font);

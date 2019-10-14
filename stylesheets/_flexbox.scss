@@ -81,15 +81,17 @@
         color: white;
         font-family: var(--main-font);
         font-weight: 700;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     &_linkblue:hover {
         color: var(--blue);
+        text-decoration: underline;
     }
 
     &_linkgreen:hover {
         color: var(--green);
+        text-decoration: underline;
     }
 
     &_linkwhite {
