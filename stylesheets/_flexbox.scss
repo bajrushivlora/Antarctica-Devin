@@ -128,4 +128,10 @@
 .flex-map {
     position: relative;
     margin: 0 auto;
+
+    &_img {
+        margin: auto;
+        position: relative;
+        width: 100vw;
+    }
 }

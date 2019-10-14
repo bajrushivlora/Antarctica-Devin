@@ -153,6 +153,11 @@ body {
   position: relative;
   margin: 0 auto;
 }
+.flex-map_img {
+  margin: auto;
+  position: relative;
+  width: 100vw;
+}
 
 .flexbox-header {
   position: relative;
