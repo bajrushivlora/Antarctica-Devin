@@ -20,3 +20,11 @@ body {
 .green {
     background-color: var(--mutedgreen);
 }
+
+#mysvg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    fill: none;
+    transform: scale(1.01);
+}

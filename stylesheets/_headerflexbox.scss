@@ -7,8 +7,9 @@
     align-content: center;
     margin: 0 auto;
     padding: 25px;
+    z-index: 1;
 
-    &_1, &_2, &_3, &_4, &_5, &_6 {
+    &_1, &_2, &_3, &_4, &_5 {
         margin: 5px;
         font-family: var(--main-font);
         font-weight: 400; 
@@ -20,7 +21,7 @@
         flex: 5 0 120px;
     }
 
-    &_2, &_3, &_4, &_5, &_6 {
+    &_2, &_3, &_4, &_5 {
         flex: 1 0;
         text-align: center;
     }
