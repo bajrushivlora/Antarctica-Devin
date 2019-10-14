@@ -152,6 +152,7 @@ body {
 .flex-map {
   position: relative;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .flex-map_img {
   margin: auto;
